@@ -1,9 +1,9 @@
-import { Axios } from './Axios';
+import axios from 'axios';
 
 export const postCode = async (code) => {
   try {
-    const response = await Axios.post(
-      `/judge0/submissions?base64_encoded=true&wait=true`,
+    const response = await axios.post(
+      `${process.env.REACT_APP_JUDGE_URL}/submissions?base64_encoded=true&wait=true`,
       {
         source_code: code,
         language_id: 63,
