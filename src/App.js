@@ -7,7 +7,7 @@ import Theme from './styles/Theme';
 import GlobalStyle from './styles/GlobalStyle';
 import Main from './pages/Main';
 import LogIn from './pages/LogIn';
-import RoomList from './pages/Room/RoomList';
+import RoomList from './pages/RoomList';
 
 function App() {
   ring2.register();

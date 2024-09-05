@@ -1,8 +1,8 @@
 # Internet Programming
 
-# Code-Share
-
-real-time 코드 공유 서비스
+# < Code-Share >
+### real-time 코드 공유 서비스
+<img src="./src/assets/docs/icon.ico" width='130px'/>
 
 ## 웹개발팀 소개
 
@@ -61,17 +61,18 @@ $ yarn start
 
 ---
 
-## 화면 구성 📺
+## 주요 기능 📺
 
+### 로그인 유효성 검사
 <table>
-  <caption>로그인 유효성 검사</caption>
     <td><img src="src/assets/docs/login-validation.gif" alt="login-validation" class="responsive-img"></td>
 </table>
 
 <br />
 
+### 실시간 코드 공유 기능
+
 <table>
-  <caption>실시간 코드 공유 기능</caption>
     <tr>
       <td><p>Socket 실시간 코드 공유</p><img src="src/assets/docs/socket.gif" alt="realtime code share" class="responsive-img"></td>
     </tr>
@@ -82,8 +83,9 @@ $ yarn start
 
 <br />
 
+### 코드 실행 기능
+
 <table>
-  <caption>코드 실행 기능</caption>
     <tr>
       <td><p>정상 실행</p><img src="src/assets/docs/run.gif" alt="chatting" class="responsive-img"></td>
       <td><p>에러 실행</p><img src="src/assets/docs/run-error.gif" alt="chatting infinite scroll" class="responsive-img"></td>
@@ -96,8 +98,9 @@ $ yarn start
 
 <br />
 
+### File, Room 기능
+
 <table>
-  <caption>File, Room 기능</caption>
 	<tr>
 	  <td><p>파일 생성 기능</p><img src="src/assets/docs/file-create.gif" alt="chatting" class="responsive-img"></td>
 	</tr>
@@ -109,7 +112,6 @@ $ yarn start
 	</tr>
 </table>
 
-## 주요 기능 📦
 
 ---
 
@@ -144,14 +146,50 @@ $ yarn start
 
 ```
 .
-├──📝 App.js, index.js, ...
+📝 App.js, index.js, ...
 │
-└── 📂 src
-    └── 📂api
-    │    └──📂 Axios.js
-    ├── 📂 assets
-    ├── 📂 components
-    ├── 📂 pages
-    └── 📂 styles
-
+📂 src
+│
+├── 📂 api
+│   ├── Axios.js
+│   ├── CreateRoom.js
+│   ├── GetRooms.js
+│   ├── LoginApi.js
+│   ├── getFiles.js
+│   └── postCode.js
+│
+├── 📂 assets
+│   ├── 📂 docs
+│   ├── eye_close.svg
+│   ├── eye_open.svg
+│   ├── goBack.svg
+│   └── run.svg
+│
+├── 📂 components
+│   ├── 📂 codeEditer
+│   │   ├── CodeEditor.js
+│   │   ├── CopyBtn.js
+│   │   ├── FileList.js
+│   │   └── ResultContainer.js
+│   ├── 📂 login
+│   │   ├── HiddenBtn.js
+│   │   ├── Input.js
+│   │   └── LogInForm.js
+│   └── 📂 room
+│       ├── CreateRoomModal.js
+│       └── NotRoom.js
+│
+├── 📂 hooks
+│   └── useLogout.js
+│
+├── 📂 pages
+│   ├── LogIn.js
+│   ├── Main.js
+│   └── RoomList.js
+├── 📂 styles
+│   ├── GlobalStyle.js
+│   └── Theme.js
+└── 📂 validation
+    ├── messages.js
+    └── schema.js
 ```
