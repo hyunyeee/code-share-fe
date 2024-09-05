@@ -91,11 +91,15 @@ $ yarn start
 <table>
     <tr>
       <td><p>정상 실행</p><img src="src/assets/docs/run.gif" alt="chatting" width='800px'></td>
+    </tr>
+    <tr>
       <td><p>에러 실행</p><img src="src/assets/docs/run-error.gif" alt="chatting infinite scroll" width='800px'></td>
     </tr>
     <tr>
       <td><p>버튼 로딩중 플래그 처리</p><img src="src/assets/docs/button.gif" alt="chatting infinite scroll" width='800px'></td>
-			<td><p>코드 복사 기능</p><img src="src/assets/docs/run+copy.gif" alt="chatting infinite scroll" width='800px'></td>
+    </tr>
+    <tr>
+      <td><p>코드 복사 기능</p><img src="src/assets/docs/copy.gif" alt="chatting infinite scroll" width='800px'></td>
     </tr>
 </table>
 
