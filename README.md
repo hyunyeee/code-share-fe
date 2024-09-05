@@ -1,6 +1,6 @@
 <style>
   .responsive-img {
-    width: 100%;
+    height: 50vh;
   }
   caption {
     font-size: 22px;
