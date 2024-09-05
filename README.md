@@ -1,3 +1,13 @@
+<style>
+  .responsive-img {
+    width: 100%;
+  }
+  caption {
+    font-size: 22px;
+  }
+</style>
+
+
 # Internet Programming
 
 # < Code-Share >
