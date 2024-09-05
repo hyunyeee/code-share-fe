@@ -1,12 +1,13 @@
 # Internet Programming
-# Code-Share
-real-time 코드 공유 서비스
 
+# Code-Share
+
+real-time 코드 공유 서비스
 
 ## 웹개발팀 소개
 
-|                    안지유                    |                  오현의                  |
-| :------------------------------------------: | :--------------------------------------: |
+|                     안지유                      |                   오현의                    |
+|:--------------------------------------------:|:----------------------------------------:|
 | [@zzzzzuuuuu](https://github.com/zzzzzuuuuu) | [@hyunyeee](https://github.com/hyunyeee) |
 
 ## 시작가이드
@@ -19,6 +20,14 @@ $ cd code-share-fe
 $ yarn install
 $ yarn start
 ```
+
+<aside>
+🔑 교수자 로그인 계정
+
+- `id`: admin
+- `pwd`: 1234
+
+</aside>
 
 ---
 
@@ -40,6 +49,11 @@ $ yarn start
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+### Code Linting and Formatting Tools
+
+![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+
 ### Communication
 
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
@@ -49,6 +63,52 @@ $ yarn start
 
 ## 화면 구성 📺
 
+<table>
+  <caption>로그인 유효성 검사</caption>
+    <td><img src="src/assets/docs/login-validation.gif" alt="login-validation" class="responsive-img"></td>
+</table>
+
+<br />
+
+<table>
+  <caption>실시간 코드 공유 기능</caption>
+    <tr>
+      <td><p>Socket 실시간 코드 공유</p><img src="src/assets/docs/socket.gif" alt="realtime code share" class="responsive-img"></td>
+    </tr>
+    <tr>
+      <td><p>화면 resizing 기능</p><img src="src/assets/docs/resizing.gif" alt="product image slide" class="responsive-img"></td>
+    </tr>
+</table>
+
+<br />
+
+<table>
+  <caption>코드 실행 기능</caption>
+    <tr>
+      <td><p>정상 실행</p><img src="src/assets/docs/run.gif" alt="chatting" class="responsive-img"></td>
+      <td><p>에러 실행</p><img src="src/assets/docs/run-error.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+    </tr>
+    <tr>
+      <td><p>버튼 로딩중 플래그 처리</p><img src="src/assets/docs/button.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+			<td><p>코드 복사 기능</p><img src="src/assets/docs/run+copy.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+    </tr>
+</table>
+
+<br />
+
+<table>
+  <caption>File, Room 기능</caption>
+	<tr>
+	  <td><p>파일 생성 기능</p><img src="src/assets/docs/file-create.gif" alt="chatting" class="responsive-img"></td>
+	</tr>
+	<tr>
+	  <td><p>파일 삭제 기능</p><img src="src/assets/docs/file-delete.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+	</tr>
+	<tr>
+	  <td><p>Room 생성 및 참여 기능</p><img src="src/assets/docs/room-create.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+	</tr>
+</table>
+
 ## 주요 기능 📦
 
 ---
@@ -57,11 +117,11 @@ $ yarn start
 
 ### Branch Naming Convention 🪵
 
-| 머릿말     | 설명                               |
-|---------| ---------------------------------- |
-| main    | 서비스 브랜치                      |
-| develop | 배포 전 작업 기준                  |
-| feature | 기능 단위 구현                     |
+| 머릿말     | 설명                   |
+|---------|----------------------|
+| main    | 서비스 브랜치              |
+| develop | 배포 전 작업 기준           |
+| feature | 기능 단위 구현             |
 | hotfix  | 서비스 중 긴급 수정 건에 대한 처리 |
 
 ### Commit Convention ✅
@@ -81,6 +141,7 @@ $ yarn start
 ---
 
 ## 폴더 구조
+
 ```
 .
 ├──📝 App.js, index.js, ...
