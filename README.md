@@ -1,17 +1,9 @@
-<style>
-  .responsive-img {
-    height: 50vh;
-  }
-  caption {
-    font-size: 22px;
-  }
-</style>
-
-
 # Internet Programming
 
 # < Code-Share >
+
 ### real-time 코드 공유 서비스
+
 <img src="./src/assets/docs/icon.ico" width='130px'/>
 
 ## 웹개발팀 소개
@@ -74,6 +66,7 @@ $ yarn start
 ## 주요 기능 📺
 
 ### 로그인 유효성 검사
+
 <table>
     <td><img src="src/assets/docs/login-validation.gif" alt="login-validation" class="responsive-img"></td>
 </table>
