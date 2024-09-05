@@ -68,7 +68,7 @@ $ yarn start
 ### 로그인 유효성 검사
 
 <table>
-    <td><img src="src/assets/docs/login-validation.gif" alt="login-validation" class="responsive-img"></td>
+    <td><img src="src/assets/docs/login-validation.gif" alt="login-validation" width='800px'></td>
 </table>
 
 <br />
@@ -77,10 +77,10 @@ $ yarn start
 
 <table>
     <tr>
-      <td><p>Socket 실시간 코드 공유</p><img src="src/assets/docs/socket.gif" alt="realtime code share" class="responsive-img"></td>
+      <td><p>Socket 실시간 코드 공유</p><img src="src/assets/docs/socket.gif" alt="realtime code share" width='800px'></td>
     </tr>
     <tr>
-      <td><p>화면 resizing 기능</p><img src="src/assets/docs/resizing.gif" alt="product image slide" class="responsive-img"></td>
+      <td><p>화면 resizing 기능</p><img src="src/assets/docs/resizing.gif" alt="product image slide" width='800px'></td>
     </tr>
 </table>
 
@@ -90,12 +90,12 @@ $ yarn start
 
 <table>
     <tr>
-      <td><p>정상 실행</p><img src="src/assets/docs/run.gif" alt="chatting" class="responsive-img"></td>
-      <td><p>에러 실행</p><img src="src/assets/docs/run-error.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+      <td><p>정상 실행</p><img src="src/assets/docs/run.gif" alt="chatting" width='800px'></td>
+      <td><p>에러 실행</p><img src="src/assets/docs/run-error.gif" alt="chatting infinite scroll" width='800px'></td>
     </tr>
     <tr>
-      <td><p>버튼 로딩중 플래그 처리</p><img src="src/assets/docs/button.gif" alt="chatting infinite scroll" class="responsive-img"></td>
-			<td><p>코드 복사 기능</p><img src="src/assets/docs/run+copy.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+      <td><p>버튼 로딩중 플래그 처리</p><img src="src/assets/docs/button.gif" alt="chatting infinite scroll" width='800px'></td>
+			<td><p>코드 복사 기능</p><img src="src/assets/docs/run+copy.gif" alt="chatting infinite scroll" width='800px'></td>
     </tr>
 </table>
 
@@ -105,13 +105,13 @@ $ yarn start
 
 <table>
 	<tr>
-	  <td><p>파일 생성 기능</p><img src="src/assets/docs/file-create.gif" alt="chatting" class="responsive-img"></td>
+	  <td><p>파일 생성 기능</p><img src="src/assets/docs/file-create.gif" alt="chatting" width='800px'></td>
 	</tr>
 	<tr>
-	  <td><p>파일 삭제 기능</p><img src="src/assets/docs/file-delete.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+	  <td><p>파일 삭제 기능</p><img src="src/assets/docs/file-delete.gif" alt="chatting infinite scroll" width='800px'></td>
 	</tr>
 	<tr>
-	  <td><p>Room 생성 및 참여 기능</p><img src="src/assets/docs/room-create.gif" alt="chatting infinite scroll" class="responsive-img"></td>
+	  <td><p>Room 생성 및 참여 기능</p><img src="src/assets/docs/room-create.gif" alt="chatting infinite scroll" width='800px'></td>
 	</tr>
 </table>
 
